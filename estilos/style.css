@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    
+}
+
+.calculadora {
+    width: 80%;
+}
+
+.header-calcauladora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers-calculadora {
+    display: grid;
+    
+    grid-template-columns: 33% 33% 33%;
+    
+}
+
+
+@media(min-width: 800px){
+    .calculadora {
+        width: 50%;
+    }
+}
