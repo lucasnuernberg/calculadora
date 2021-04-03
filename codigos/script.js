@@ -44,8 +44,9 @@ $(document).ready(function(){
                 break;
             case '÷':
                 resp = n1 / n2;
+                break;
             default:
-                alert('Any operator was found!')
+                alert('Any operator was found!');
                 break;
         }
         return resp;
