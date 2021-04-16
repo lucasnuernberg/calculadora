@@ -9,15 +9,16 @@ $(document).ready(function(){
                "btn btn-outline-info",
                 "btn btn-outline-info",
                 "btn btn-outline-info",
+                "btn btn-outline-danger"
     ]
     
     //adding numbers buttons
-    for (let ind = 0; 9 > ind; ind++) {        
+    for (let ind = 0; 10 > ind; ind++) {        
         let button = `<button type="button" value="${ind}" class="${classes[ind]}">${ind}</button>`;
         $('#primary').before(button);
     }
-    let instaBt = `<button type="button" value="" class="btn btn-outline-primary"><a href="https://www.instagram.com/lucasnuernberg/" target="_blank" rel="noopener noreferrer"><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-5.png" style="width: 20px;" alt=""></a></button>`;
-    $('.numbers-calculadora').append(instaBt);
+    let instaBt = `<button type="button" value="" class="btn btn-outline-dark"><a href="https://www.instagram.com/lucasnuernberg/" target="_blank" rel="noopener noreferrer"><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-5.png" style="width: 20px;" alt=""></a></button>`;
+    $('#insta').append(instaBt);
 
     //defining variables of 2 numbers
     var number1 = 0
